@@ -203,9 +203,14 @@ export default function Home() {
           </div>
           
           <div className="flex flex-col justify-center items-center space-y-2 pb-20">
-            <p>current state of the counter: {state}</p>
+            <p className="text-center">current state of the counter: {state} <br /> <br />
+            read more:  
+              <a className="underline" href="https://twitter.com/ErikKaum/status/1535339668077780992?s=20&t=f_HArzANGV8fU_Zc908Jmw">    
+                  https://twitter.com/ErikKaum/status/1535339668077780992?s=20&t=f_HArzANGV8fU_Zc908Jmw
+              </a>            
+            </p>
           </div>
-        
+
         </div>
       </div>
     </>
